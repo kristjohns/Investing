@@ -526,7 +526,7 @@ All are possible. None is the median outcome, which is closer to growth fading t
 - **[E] Downside cushion.** The krone tends to weaken when stocks fall. The monthly correlation between the S&P 500 and USD/NOK was −0.35 over 2000–2026, and USD/NOK rose 1.35% on average in months when the S&P fell more than 3%. Over the three drawdowns above, USD/NOK rose 39%, 22% and 23%. Visa's −52% in 2008–09 was about −33% in NOK.
 - **[E] Track record.** Since 30 Sep 2015 Visa has returned about 18.0%/yr in USD and 19.2%/yr in NOK, helped by a weaker krone.
 
-[J] USD exposure is a *diversifier* for a Norwegian investor in a crisis. The long-run risk is a recovery of the krone; a return to the 20-year average would cost about 2pp a year over 10 years. Note that your global index fund carries similar (if smaller) USD exposure, since US stocks are about two-thirds of global indices, so currency is not a reason to prefer one over the other.
+[J] USD exposure is a *diversifier* for a Norwegian investor in a crisis. The long-run risk is a recovery of the krone; a return to the 20-year average would cost about 2pp a year over 10 years. Note that your global index fund carries similar (if smaller) USD exposure, since US stocks are 63.6% of the MSCI ACWI (31 Aug 2026) [MSCI-ACWI], so currency is not a reason to prefer one over the other.
 
 ### 11.2 Can Visa be held in an aksjesparekonto (ASK)?
 **No [F].** An ASK can hold only listed shares and equity certificates of companies **resident in the EEA**, plus equity funds with more than 80% in equities. US companies such as Visa are not eligible [ASK, NORDNET-ASK]. AksjeNorge reported proposals in June 2026 to widen the scheme to Euronext Growth shares; this does not affect US stocks [ASK]. A global index fund **can** be held in an ASK.
@@ -606,7 +606,7 @@ All are possible. None is the median outcome, which is closer to growth fading t
 ## Appendix A: methodology, limitations and how to rerun
 
 - **Rerun everything:** `python analysis/run_all.py`, or add `--skip-download` to reuse the cached raw data. It needs Python 3 with pandas, numpy and matplotlib.
-- **Data files:** `analysis/data/visa_annual.csv` (305 Visa figures, each with a `source_id`), `visa_quarterly.csv`, `market_data.csv`, `visa_fy_end_prices.csv`, `mastercard_annual.csv`, `qualitative_facts.csv` (55 dated facts behind the narrative), `sources.csv`, and `raw/` (downloaded datasets).
+- **Data files:** `analysis/data/visa_annual.csv` (305 Visa figures, each with a `source_id`), `visa_quarterly.csv`, `market_data.csv`, `visa_fy_end_prices.csv`, `mastercard_annual.csv`, `qualitative_facts.csv` (56 dated facts behind the narrative), `sources.csv`, and `raw/` (downloaded datasets).
 - **Scripts:**
   - `financials.py`: 10-year table, consistency checks, trailing 12 months.
   - `valuation.py`: multiples, DCF, reverse DCF, sensitivities.
@@ -615,6 +615,7 @@ All are possible. None is the median outcome, which is closer to growth fading t
   - `norway_tax.py`: after-tax illustration.
   - `charts.py`: all charts.
   - `verify_with_sec_xbrl.py`: optional cross-check against SEC XBRL data.
+  - `build_pdf.py`: renders this report to `visa_report.pdf` (needs Playwright and Chromium).
 - **Known limitations:**
   - **Data collection:** figures were collected with a web-search tool (direct SEC/FRED downloads were blocked), then checked by internal reconciliation.
   - **Lower-confidence items:** FY2020 processed transactions (secondary source); FY2022 cross-border growth (nominal 40% vs constant-dollar 49% ambiguity); FY2024 cash and investments (approximate); tax rates for NOPAT before FY2023 (assumed).
@@ -709,6 +710,7 @@ All accessed 17 October 2026 (via web search where the host was not directly rea
 - [SPIVA] S&P Dow Jones Indices, SPIVA U.S. Year-End 2025: https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2025/ (P); horizon figures via [NGPF] https://dev5.ngpf.org/blog/question-of-the-day/question-of-the-day-over-a-recent-20-year-period-what-percent-of-pros-investing-in-large-companies-beat-the-market/ (S)
 - [BESSEMBINDER] Bessembinder (2018), "Do stocks outperform Treasury bills?": https://wpcarey.asu.edu/department-finance/faculty-research/do-stocks-outperform-treasury-bills (P)
 - [MSCI] MSCI ACWI index factsheets (parent-index weights): https://www.msci.com/indexes/index/700827 (P)
+- [MSCI-ACWI] MSCI ACWI Index (USD) factsheet, 31 Aug 2026, country weights: https://www.msci.com/documents/10199/255599/msci-acwi-net.pdf (P)
 
 **Public datasets used by the scripts (P, via datahub.io mirrors)**
 - [H10] Federal Reserve H.10 / FRED DEXNOUS, USD/NOK daily: https://github.com/datasets/exchange-rates
@@ -839,6 +841,7 @@ All accessed 17 October 2026 (via web search where the host was not directly rea
 [NGPF]: https://dev5.ngpf.org/blog/question-of-the-day/question-of-the-day-over-a-recent-20-year-period-what-percent-of-pros-investing-in-large-companies-beat-the-market/
 [BESSEMBINDER]: https://wpcarey.asu.edu/department-finance/faculty-research/do-stocks-outperform-treasury-bills
 [MSCI]: https://www.msci.com/indexes/index/700827
+[MSCI-ACWI]: https://www.msci.com/documents/10199/255599/msci-acwi-net.pdf
 [H10]: https://github.com/datasets/exchange-rates
 [CPI]: https://github.com/datasets/cpi-us
 [FOMC]: https://federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm

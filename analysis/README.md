@@ -18,6 +18,7 @@ python analysis/run_all.py --skip-download  # reuse analysis/data/raw/
 | `norway_tax.py` | After-tax illustration for a NOK 40,000 position (ordinary account vs ASK index fund) | `norway_*.csv` |
 | `charts.py` | All figures | `../charts/*.png` |
 | `verify_with_sec_xbrl.py` | Optional: re-checks compiled figures against SEC XBRL (needs internet + `SEC_USER_AGENT`) | `xbrl_crosscheck.csv` |
+| `build_pdf.py` | Renders `visa_report.md` to an A4 PDF with charts, contents page and bookmarks (`pip install markdown-it-py mdit-py-plugins linkify-it-py playwright`; set `CHROMIUM_PATH` or run `playwright install chromium`) | `../visa_report.pdf` |
 
 ## Data files (`analysis/data/`)
 
