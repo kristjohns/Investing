@@ -1,0 +1,37 @@
+period,metric,value,unit,source_id,note
+9M_FY2026,net_revenue,33764,USD_m,VER26Q3,nine months ended 30 Jun 2026
+9M_FY2025,net_revenue,29276,USD_m,VER26Q3,nine months ended 30 Jun 2025
+9M_FY2026,net_income,17502,USD_m,VER26Q3,
+9M_FY2025,net_income,14968,USD_m,VER26Q3,
+9M_FY2026,total_opex,12916,USD_m,V10Q26Q3,
+9M_FY2026,eps_gaap_diluted,9.14,USD,V10Q26Q3,Q1 3.03 + Q2 3.14 + Q3 2.97
+9M_FY2026,eps_nongaap_diluted,9.79,USD,V10Q26Q3,Q1 3.17 + Q2 3.31 + Q3 3.32
+9M_FY2025,eps_gaap_diluted,7.59,USD,VER26Q3,sum of reported quarters Q1 2.58 + Q2 2.32 + Q3 2.69
+9M_FY2025,eps_nongaap_diluted,8.49,USD,VER26Q3,sum of reported quarters Q1 2.75 + Q2 2.76 + Q3 2.98
+9M_FY2026,cfo,16342,USD_m,VER26Q3,results supplement free cash flow table
+9M_FY2025,cfo,16821,USD_m,VER25Q3,results supplement free cash flow table
+9M_FY2026,capex,1178,USD_m,VER26Q3,
+9M_FY2025,capex,1093,USD_m,VER25Q3,
+9M_FY2026,sbc,728,USD_m,V10Q26Q3,
+9M_FY2025,sbc,706,USD_m,V10Q26Q3,
+9M_FY2026,buybacks,16537,USD_m,VER26Q3,release metric (trade-date basis)
+9M_FY2026,dividends_paid,3852,USD_m,VER26Q3,
+Q1_FY2026,net_revenue_growth,15,pct,VER26Q1,13% constant dollar; $707m MDL litigation provision; $333m deferred tax benefit
+Q2_FY2026,net_revenue_growth,17,pct,VER26Q2,16% constant dollar; $311m litigation provision; new $20bn buyback authorisation
+Q3_FY2026,net_revenue_growth,14,pct,VER26Q3,13% constant dollar; $563m severance charge
+Q1_FY2026,payments_volume_growth_cc,8,pct,VER26Q1,
+Q2_FY2026,payments_volume_growth_cc,9,pct,VER26Q2,
+Q3_FY2026,payments_volume_growth_cc,10,pct,VER26Q3,payments volume passed $4tn in the quarter
+Q1_FY2026,cross_border_ex_europe_growth_cc,11,pct,VER26Q1,
+Q2_FY2026,cross_border_ex_europe_growth_cc,11,pct,VER26Q2,
+Q3_FY2026,cross_border_ex_europe_growth_cc,12,pct,VER26Q3,total cross-border +13%
+Q1_FY2026,processed_transactions_growth,9,pct,VER26Q1,
+Q2_FY2026,processed_transactions_growth,9,pct,VER26Q2,
+Q3_FY2026,processed_transactions_growth,10,pct,VER26Q3,71.7bn transactions in quarter
+Q3_FY2026,net_revenue,11633,USD_m,VER26Q3,
+Q3_FY2026,net_income,5628,USD_m,VER26Q3,
+Q3_FY2026,eps_gaap_diluted,2.97,USD,VER26Q3,
+Q3_FY2026,eps_nongaap_diluted,3.32,USD,VER26Q3,
+Q3_FY2026,class_a_shares_outstanding,1700,m_shares,V10Q26Q3,cover page approx. 1.70bn class A as of 21 Jul 2026 (plus class B-1/B-2/B-3/C series convertible into class A)
+FY2026_guidance,eps_growth,low end of mid-teens,text,VER26Q3,non-GAAP; per call summaries (TIKR/Tickeron/Quartr) - wording of revenue guidance differs between secondary sources
+FY2026_guidance,q4_net_revenue_growth,high end of low double digits,text,VER26Q3,per call summaries

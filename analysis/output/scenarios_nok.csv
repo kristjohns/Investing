@@ -1,0 +1,25 @@
+scenario,horizon_years,fx_path,annualised_return_nok
+bear,5,NOK strengthens to 8.50,-0.04506285003
+bear,5,flat at 9.57,-0.02221894333
+bear,5,NOK weakens to 10.50,-0.003840539674
+base,5,NOK strengthens to 8.50,0.06720134625
+base,5,flat at 9.57,0.09273082532
+base,5,NOK weakens to 10.50,0.1132698285
+bull,5,NOK strengthens to 8.50,0.1294138458
+bull,5,flat at 9.57,0.1564315658
+bull,5,NOK weakens to 10.50,0.1781678901
+bear,10,NOK strengthens to 8.50,-0.009832347059
+bear,10,flat at 9.57,0.00194100241
+bear,10,NOK weakens to 10.50,0.01131342374
+base,10,NOK strengthens to 8.50,0.07382832416
+base,10,flat at 9.57,0.08659642065
+base,10,NOK weakens to 10.50,0.09676073116
+bull,10,NOK strengthens to 8.50,0.1206796864
+bull,10,flat at 9.57,0.1340048577
+bull,10,NOK weakens to 10.50,0.1446126393
+probability-weighted,5,NOK strengthens to 8.50,0.06075167197
+probability-weighted,5,flat at 9.57,0.0861268626
+probability-weighted,5,NOK weakens to 10.50,0.1065417375
+probability-weighted,10,NOK strengthens to 8.50,0.0708512831
+probability-weighted,10,flat at 9.57,0.0835839818
+probability-weighted,10,NOK weakens to 10.50,0.09372011317

@@ -1,0 +1,11 @@
+assumption,value,justification / source
+valuation date / price,402.61 USD (16 Oct 2026 close),market_data.csv
+diluted shares (m),"1,894.9",Q3 FY2026 net income / diluted EPS (as-converted class A)
+net debt (USD m),"5,175","30 Sep 2025 debt 25,171 less cash & investments 19,996; escrow excluded (earmarked for covered litigation)"
+base revenue FY2026E (USD m),"45,710",Zacks consensus after Q3 FY2026; 9M FY2026 actual growth +15.3%
+stage-1 growth FY2027-31,10.0%,"consensus FY2027 +10.3%, FY2028 +10.8%; FY2015-25 CAGR 11.2%, FY2017-25 10.2%"
+fade FY2032-36,linear to terminal,maturing growth; regulation and A2A competition
+terminal growth,4.0%,"nominal; ~2% inflation + ~2% real, below long-run nominal world GDP"
+FCF after SBC / revenue,51.1%,"mean of FY2023, FY2024, FY2025 and TTM (58.0%/49.7%/51.7%/45.2%); held flat"
+discount rate,8.5%,"CAPM 8.23% = 5.08% 10y UST + 0.75 beta x 4.2% ERP, rounded up"
+cash-flow timing,mid-year,valuation date ~ start of FY2027 (fiscal year begins 1 Oct)

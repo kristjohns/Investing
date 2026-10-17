@@ -1,0 +1,23 @@
+item,date,value,unit,source,url,note
+V_close,2026-10-16,402.61,USD,Morningstar / Yahoo Finance / Seeking Alpha (via web search),https://www.morningstar.com/stocks/xnys/v/quote,new 52-week and all-time closing high; intraday high 404.74
+V_prev_close,2026-10-15,399.75,USD,Morningstar (via web search),https://www.morningstar.com/stocks/xnys/v/quote,
+V_close_fy_end,2026-09-30,360.12,USD,MarketBeat price history (via web search),https://www.marketbeat.com/stocks/NYSE/V/price-history,Investing.com shows 359.33 - small discrepancy
+V_52w_low,2026-10-16,293.89,USD,Google Finance / Bullfincher snapshots (via web search),https://bullfincher.io/companies/visa/stock-price-history,approximate - snapshots dated Aug 2026
+V_trailing_pe_yahoo,2026-08,31.37,x,Yahoo Finance key statistics (via web search),https://finance.yahoo.com/quote/V/key-statistics/,snapshot before October rally
+V_consensus_eps_fy2026,2026-07,13.14,USD,Zacks consensus after Q3 FY2026 (via web search),https://www.easternprogress.com/wall-street-raises-visa-outlook-after-strong-q3-buy-hold-or-sell/article_bf7007ff-bc8b-5f31-bbe3-0eb413b46ec1.html,non-GAAP
+V_consensus_eps_fy2027,2026-07,14.94,USD,Zacks consensus after Q3 FY2026 (via web search),https://www.easternprogress.com/wall-street-raises-visa-outlook-after-strong-q3-buy-hold-or-sell/article_bf7007ff-bc8b-5f31-bbe3-0eb413b46ec1.html,non-GAAP
+V_consensus_rev_fy2026,2026-07,45710,USD_m,Zacks consensus (via web search),https://www.easternprogress.com/wall-street-raises-visa-outlook-after-strong-q3-buy-hold-or-sell/article_bf7007ff-bc8b-5f31-bbe3-0eb413b46ec1.html,
+V_consensus_rev_fy2027,2026-07,50440,USD_m,Zacks consensus (via web search),https://www.easternprogress.com/wall-street-raises-visa-outlook-after-strong-q3-buy-hold-or-sell/article_bf7007ff-bc8b-5f31-bbe3-0eb413b46ec1.html,
+V_consensus_rev_fy2028,2026-08,55905,USD_m,S&P Global consensus via Simply Wall St (via web search),https://simplywall.st/stocks/pe/diversified-financials/bvl-vus/visa-shares/future,
+V_analyst_target_mean,2026-10,426,USD,MarketBeat consensus (via web search),https://www.marketbeat.com/stocks/NYSE/V/,
+MA_close,2026-10-16,617.42,USD,Google Finance / Finviz (via web search),https://www.google.com/finance/quote/MA:NYSE,
+MA_market_cap,2026-10-16,540.9,USD_bn,Google Finance (via web search),https://www.google.com/finance/quote/MA:NYSE,
+MA_ttm_eps_gaap,2026-06-30,18.18,USD,Google Finance; reconciles to FY2025 16.52 + H1-2026 9.32 - H1-2025 7.66,https://www.google.com/finance/quote/MA:NYSE,
+MA_forward_pe_2026,2026-10,31.5,x,MarketScreener (via web search),https://www.marketscreener.com/quote/stock/MASTERCARD-INC-17163/,
+SPX_forward_pe,2026-10-16,19.0,x,FactSet Earnings Insight 16 Oct 2026,https://insight.factset.com/sp-500-earnings-season-update-october-16-2026,5y avg 19.8; 10y avg 19.1
+SPX_trailing_pe_factset,2026-10-02,25.7,x,FactSet Earnings Insight 2 Oct 2026,https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_100226.pdf,operating EPS basis
+SPX_trailing_pe_multpl,2026-07-31,28.71,x,Multpl via YCharts (as-reported TTM earnings),https://ycharts.com/indicators/sandp_500_pe_ratio_estimate,
+SPX_trailing_pe_multpl,2025-09-30,28.13,x,Multpl via YCharts,https://www.multpl.com/s-p-500-pe-ratio/table,
+SPX_trailing_pe_multpl,2024-09-30,28.09,x,Multpl via YCharts,https://www.multpl.com/s-p-500-pe-ratio/table,
+SPX_trailing_pe_multpl,2023-09-30,23.93,x,Multpl via YCharts,https://www.multpl.com/s-p-500-pe-ratio/table,
+SPX_cy2026_eps_growth_est,2026-10-16,32.8,pct,FactSet Earnings Insight 16 Oct 2026,https://insight.factset.com/sp-500-earnings-season-update-october-16-2026,as reported by search summary - unusually high; treat with caution

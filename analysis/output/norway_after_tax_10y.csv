@@ -1,0 +1,5 @@
+case,assumed_total_return_usd,pre_tax_value,net_dividends_received,tax_on_sale,after_tax_wealth,us_withholding_not_credited,unused_shield_at_sale,after_tax_cagr
+Visa base case,0.08659642065,86308.91968,3539.729098,14558.29931,75290.34947,624.6580761,7835.612826,0.06529020088
+Visa probability-weighted,0.0835839818,83931.37209,3479.759417,13631.93821,73779.19329,614.0751912,7906.165392,0.06313249106
+"Global index fund in ASK, 7%/yr",0.07,77227.5964,0,9546.122478,67681.47392,,0,0.05400089986
+"Global index fund in ASK, 9.3%/yr",0.0928,95391.85276,0,16419.47709,78972.37568,,0,0.07038871358

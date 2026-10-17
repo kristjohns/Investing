@@ -1,0 +1,21 @@
+metric,visa,mastercard_or_reference
+"Share price (USD, 16 Oct 2026)",402.61,617.42
+Diluted shares (m),1894.949495,
+Market capitalisation (USD bn),762.9256162,540.9
+"Net debt (USD bn, 30 Sep 2025)",5.175,
+Enterprise value (USD bn),768.1006162,
+"P/E trailing, GAAP",34.26468085,33.96149615
+"P/E trailing, non-GAAP/adjusted",31.52779953,32.89397975
+P/E forward FY2026E (consensus),30.64003044,31.5
+P/E forward FY2027E (consensus),26.94846051,
+"EV/EBIT FY2025, GAAP",32.01219539,
+"EV/EBIT FY2025, non-GAAP",28.34947281,
+EV/EBIT FY2026E (consensus revenue x FY2025 non-GAAP margin),24.80811447,
+"EV/net revenue, trailing",17.26534383,
+"FCF yield, trailing (%)",2.754265888,
+"FCF-after-SBC yield, trailing (%)",2.633808536,
+"Earnings yield, trailing non-GAAP (%)",3.171803979,
+"Dividend yield (%, $0.67 x 4)",0.6656565907,
+US 10-year Treasury yield (%),5.08,5.08
+S&P 500 forward P/E (FactSet),19,19
+"S&P 500 trailing P/E (FactSet, operating)",25.7,25.7

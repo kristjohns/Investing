@@ -1,0 +1,14 @@
+year,net_revenue_usd_m,eps_gaap_diluted,eps_adjusted,source,note
+2015,9667,3.35,,Macrotrends (compiled from MA 10-K),calendar fiscal year
+2016,10776,3.69,,Macrotrends,
+2017,12497,3.65,,Macrotrends,2017 EPS depressed by US tax reform charge
+2018,14950,5.60,,Macrotrends,
+2019,16883,7.94,,Macrotrends,
+2020,15301,6.37,,Macrotrends,
+2021,18884,8.76,,Macrotrends,
+2022,22237,10.22,,Macrotrends,
+2023,25098,11.83,,Macrotrends,
+2024,28167,13.89,,Macrotrends / MA FY2025 10-K,
+2025,32791,16.52,17.01,MA FY2025 10-K (https://www.sec.gov/Archives/edgar/data/1141391/000114139126000013/ma-20251231.htm),operating income 18.9bn; operating margin 57.6%; FCF ~17159 (stockanalysis - secondary)
+H1_2025,15383,7.66,7.88,MA Q2 2025 10-Q (https://www.sec.gov/Archives/edgar/data/1141391/000114139125000172/ma-20250630.htm),Q1 3.59/3.73 + Q2 4.07/4.15
+H1_2026,17700,9.32,9.64,MA Q1 2026 and Q2 2026 earnings releases (https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000081/ma06302026-exx991xearnings.htm),Q1 revenue ~8.4bn (+16%) and Q2 9.3bn (+14%) - revenue rounded; Q2 GAAP operating margin 60.2%

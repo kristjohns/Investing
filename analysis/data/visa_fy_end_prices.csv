@@ -1,0 +1,13 @@
+fiscal_year,date,close_unadjusted,close_dividend_adjusted,source_unadjusted,source_adjusted
+2015,2015-09-30,69.66,65.07,fullratio.com Visa PE history (https://fullratio.com/stocks/nyse-v/pe-ratio),Macrotrends Visa PE history (https://macrotrends.net/stocks/charts/V/visa/pe-ratio)
+2016,2016-09-30,82.70,77.82,fullratio.com,Macrotrends
+2017,2017-09-29,105.24,99.76,fullratio.com,Macrotrends
+2018,2018-09-28,150.09,143.22,fullratio.com,Macrotrends
+2019,2019-09-30,172.01,165.21,fullratio.com,Macrotrends
+2020,2020-09-30,199.97,193.28,fullratio.com,Macrotrends
+2021,2021-09-30,222.75,216.56,fullratio.com,Macrotrends
+2022,2022-09-30,177.65,173.94,fullratio.com,Macrotrends
+2023,2023-09-29,230.01,227.02,fullratio.com,Macrotrends
+2024,2024-09-30,274.95,273.51,fullratio.com,Macrotrends
+2025,2025-09-30,341.38,,TipRanks historical prices / fullratio.com,
+2026,2026-09-30,360.12,,MarketBeat price history (Investing.com: 359.33),

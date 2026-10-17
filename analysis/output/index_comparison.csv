@@ -1,0 +1,5 @@
+horizon_years,index_assumption,index_expected_return,visa_prob_weighted_return,visa_minus_index
+5,Market-implied: 10y UST 5.08% + Damodaran ERP 4.20%,0.0928,0.0861268626,-0.006673137401
+5,Lower bound: ~7% (our reading of J.P. Morgan 2026 LTCMA 60/40 = 6.4%),0.07,0.0861268626,0.0161268626
+10,Market-implied: 10y UST 5.08% + Damodaran ERP 4.20%,0.0928,0.0835839818,-0.009216018198
+10,Lower bound: ~7% (our reading of J.P. Morgan 2026 LTCMA 60/40 = 6.4%),0.07,0.0835839818,0.0135839818

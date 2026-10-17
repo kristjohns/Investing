@@ -1,0 +1,306 @@
+fiscal_year,metric,value,unit,source_id,note
+2015,service_rev,6302,USD_m,VER16Q4,prior-year column of FY2016 release
+2015,data_processing_rev,5552,USD_m,VER16Q4,prior-year column of FY2016 release
+2015,intl_transaction_rev,4064,USD_m,VER16Q4,prior-year column of FY2016 release
+2015,other_rev,823,USD_m,VER16Q4,prior-year column of FY2016 release
+2015,net_revenue,13880,USD_m,V10K17,also MT
+2016,service_rev,6747,USD_m,VER16Q4,
+2016,data_processing_rev,6272,USD_m,VER16Q4,
+2016,intl_transaction_rev,4649,USD_m,VER16Q4,
+2016,other_rev,823,USD_m,VER16Q4,
+2016,net_revenue,15082,USD_m,V10K17,release: client incentives $3.4bn = 18.4% of gross
+2017,service_rev,7975,USD_m,V10K19,
+2017,data_processing_rev,7786,USD_m,V10K19,
+2017,intl_transaction_rev,6321,USD_m,V10K19,
+2017,other_rev,841,USD_m,V10K19,
+2017,client_incentives,4565,USD_m,V10K19,contra-revenue
+2017,net_revenue,18358,USD_m,V10K19,
+2018,service_rev,8918,USD_m,V10K19,
+2018,data_processing_rev,9027,USD_m,V10K19,
+2018,intl_transaction_rev,7211,USD_m,V10K19,
+2018,other_rev,944,USD_m,V10K19,
+2018,client_incentives,5491,USD_m,V10K19,contra-revenue
+2018,net_revenue,20609,USD_m,V10K19,
+2019,service_rev,9700,USD_m,V10K19,ASC 606 adopted 1 Oct 2018 (added ~3.2pp to FY2019 net revenue growth per VER19Q4)
+2019,data_processing_rev,10333,USD_m,V10K19,
+2019,intl_transaction_rev,7804,USD_m,V10K19,
+2019,other_rev,1313,USD_m,V10K19,
+2019,client_incentives,6173,USD_m,V10K19,contra-revenue
+2019,net_revenue,22977,USD_m,V10K19,
+2020,service_rev,9804,USD_m,V10K22,
+2020,data_processing_rev,10975,USD_m,V10K22,
+2020,intl_transaction_rev,6299,USD_m,V10K22,
+2020,other_rev,1432,USD_m,V10K22,
+2020,client_incentives,6664,USD_m,V10K22,contra-revenue
+2020,net_revenue,21846,USD_m,V10K22,
+2021,service_rev,11475,USD_m,V10K22,
+2021,data_processing_rev,12792,USD_m,V10K22,
+2021,intl_transaction_rev,6530,USD_m,V10K22,
+2021,other_rev,1675,USD_m,V10K22,
+2021,client_incentives,8367,USD_m,V10K22,contra-revenue
+2021,net_revenue,24105,USD_m,V10K22,
+2022,service_rev,13361,USD_m,V10K22,
+2022,data_processing_rev,14438,USD_m,V10K22,
+2022,intl_transaction_rev,9815,USD_m,V10K22,
+2022,other_rev,1991,USD_m,V10K22,
+2022,client_incentives,10295,USD_m,V10K22,contra-revenue
+2022,net_revenue,29310,USD_m,V10K22,
+2023,service_rev,14826,USD_m,V10K25,
+2023,data_processing_rev,16007,USD_m,V10K24,
+2023,intl_transaction_rev,11638,USD_m,V10K25,
+2023,other_rev,2479,USD_m,V10K25,
+2023,client_incentives,12297,USD_m,V10K25,contra-revenue
+2023,net_revenue,32653,USD_m,V10K25,
+2024,service_rev,16114,USD_m,V10K25,
+2024,data_processing_rev,17714,USD_m,V10K24,
+2024,intl_transaction_rev,12665,USD_m,V10K25,
+2024,other_rev,3197,USD_m,V10K25,
+2024,client_incentives,13764,USD_m,V10K25,contra-revenue
+2024,net_revenue,35926,USD_m,V10K25,
+2025,service_rev,17539,USD_m,V10K25,
+2025,data_processing_rev,19993,USD_m,V10K25,
+2025,intl_transaction_rev,14166,USD_m,V10K25,
+2025,other_rev,4053,USD_m,V10K25,
+2025,client_incentives,15751,USD_m,V10K25,contra-revenue
+2025,net_revenue,40000,USD_m,V10K25,
+2015,operating_income,9064,USD_m,MT,
+2016,operating_income,7883,USD_m,MT,includes $1.9bn pre-tax loss on settling the Visa Europe Framework Agreement in Q3 FY2016 (source VER16Q3)
+2017,operating_income,12144,USD_m,VAR19,
+2018,operating_income,12954,USD_m,VAR19,
+2019,operating_income,15001,USD_m,VAR19,
+2020,operating_income,14081,USD_m,MT,
+2021,operating_income,15804,USD_m,MT,
+2022,operating_income,18813,USD_m,MT,
+2023,operating_income,21000,USD_m,V10K25,net revenue less total opex
+2024,operating_income,23595,USD_m,V10K25,net revenue less total opex
+2025,operating_income,23994,USD_m,V10K25,net revenue less total opex
+2017,total_opex,6214,USD_m,VAR19,
+2018,total_opex,7655,USD_m,VAR19,
+2019,total_opex,7976,USD_m,VAR19,
+2023,total_opex,11653,USD_m,V10K25,
+2024,total_opex,12331,USD_m,V10K25,
+2025,total_opex,16006,USD_m,V10K25,
+2023,personnel,5831,USD_m,V10K25,
+2024,personnel,6264,USD_m,V10K25,
+2025,personnel,6961,USD_m,V10K25,
+2023,marketing,1341,USD_m,V10K25,
+2024,marketing,1560,USD_m,V10K25,
+2025,marketing,1684,USD_m,V10K25,
+2023,network_processing,736,USD_m,V10K25,
+2024,network_processing,778,USD_m,V10K25,
+2025,network_processing,894,USD_m,V10K25,
+2023,professional_fees,545,USD_m,V10K25,
+2024,professional_fees,635,USD_m,V10K25,
+2025,professional_fees,759,USD_m,V10K25,
+2023,d_and_a,943,USD_m,V10K25,
+2024,d_and_a,1034,USD_m,V10K25,
+2025,d_and_a,1220,USD_m,V10K25,
+2023,g_and_a,1330,USD_m,V10K25,
+2024,g_and_a,1598,USD_m,V10K25,
+2025,g_and_a,1926,USD_m,V10K25,
+2023,litigation_provision,927,USD_m,V10K25,
+2024,litigation_provision,462,USD_m,V10K25,
+2025,litigation_provision,2562,USD_m,V10K25,
+2020,personnel,3785,USD_m,V10K22,
+2021,personnel,4240,USD_m,V10K22,
+2022,personnel,4990,USD_m,V10K22,
+2020,marketing,971,USD_m,V10K22,
+2021,marketing,1136,USD_m,V10K22,
+2022,marketing,1336,USD_m,V10K22,
+2020,network_processing,727,USD_m,V10K22,
+2021,network_processing,730,USD_m,V10K22,
+2022,network_processing,743,USD_m,V10K22,
+2023,nongaap_opex,10481,USD_m,V10K25,
+2024,nongaap_opex,11609,USD_m,V10K25,
+2025,nongaap_opex,12906,USD_m,V10K25,
+2015,net_income,6328,USD_m,MT,release: $6.3bn
+2016,net_income,5991,USD_m,MT,release: $6.0bn
+2017,net_income,6699,USD_m,VAR19,includes $1.5bn non-cash deferred-tax charge (Visa Europe reorganisation)
+2018,net_income,10301,USD_m,VAR19,
+2019,net_income,12080,USD_m,VAR19,
+2020,net_income,10866,USD_m,MT,release: $10.9bn
+2021,net_income,12311,USD_m,MT,release: $12.3bn
+2022,net_income,14957,USD_m,MT,release: $15.0bn
+2023,net_income,17273,USD_m,V10K25,
+2024,net_income,19743,USD_m,V10K25,
+2025,net_income,20058,USD_m,V10K25,
+2015,eps_gaap_diluted,2.58,USD,VER15Q4,class A diluted (as-converted)
+2016,eps_gaap_diluted,2.48,USD,VER16Q4,
+2017,eps_gaap_diluted,2.80,USD,VER17Q4,
+2018,eps_gaap_diluted,4.42,USD,VER18Q4,
+2019,eps_gaap_diluted,5.32,USD,VAR19,
+2020,eps_gaap_diluted,4.89,USD,VER20Q4,
+2021,eps_gaap_diluted,5.63,USD,VER21Q4,
+2022,eps_gaap_diluted,7.00,USD,VER22Q4,
+2023,eps_gaap_diluted,8.28,USD,V10K25,
+2024,eps_gaap_diluted,9.73,USD,V10K25,
+2025,eps_gaap_diluted,10.20,USD,V10K25,diluted weighted-average class A shares 1966m (as-converted)
+2015,eps_nongaap_diluted,2.62,USD,VER15Q4,
+2016,eps_nongaap_diluted,2.84,USD,VDECK17,
+2017,eps_nongaap_diluted,3.48,USD,VER17Q4,
+2018,eps_nongaap_diluted,4.61,USD,VER18Q4,
+2019,eps_nongaap_diluted,5.44,USD,VAR19,
+2020,eps_nongaap_diluted,5.04,USD,VER20Q4,
+2021,eps_nongaap_diluted,5.91,USD,VER21Q4,
+2022,eps_nongaap_diluted,7.50,USD,VER22Q4,
+2023,eps_nongaap_diluted,8.77,USD,VAR24,
+2024,eps_nongaap_diluted,10.05,USD,VAR24,
+2025,eps_nongaap_diluted,11.47,USD,V10K25,
+2019,nongaap_net_income,12367,USD_m,VAR19,
+2022,nongaap_net_income,16034,USD_m,VAR24,
+2023,nongaap_net_income,18280,USD_m,V10K25,
+2024,nongaap_net_income,20389,USD_m,V10K25,
+2025,nongaap_net_income,22542,USD_m,V10K25,
+2025,diluted_shares,1966,m_shares,V10K25,weighted-average diluted class A (as-converted)
+2019,cfo,12784,USD_m,ZK,
+2020,cfo,10440,USD_m,ZK,
+2021,cfo,15227,USD_m,SA,
+2022,cfo,18849,USD_m,V10K24,
+2023,cfo,20755,USD_m,V10K24,
+2024,cfo,19950,USD_m,V10K24,
+2025,cfo,23059,USD_m,VPR25Q4,
+2025,capex,1482,USD_m,VPR25Q4,purchases of property equipment and technology
+2015,fcf_reported_secondary,6180,USD_m,MT,CFO less capex
+2016,fcf_reported_secondary,5051,USD_m,MT,
+2017,fcf_reported_secondary,8622,USD_m,MT,
+2018,fcf_reported_secondary,12223,USD_m,MT,
+2019,fcf_reported_secondary,12028,USD_m,MT,
+2020,fcf_reported_secondary,9704,USD_m,MT,
+2022,fcf_reported_secondary,17879,USD_m,MT,
+2023,fcf_reported_secondary,19696,USD_m,MT,
+2024,fcf_reported_secondary,18693,USD_m,MT,
+2025,fcf_reported_secondary,21577,USD_m,VPR25Q4,
+2023,sbc,765,USD_m,ET,share-based compensation (cash flow statement)
+2024,sbc,850,USD_m,ET,
+2025,sbc,897,USD_m,ET,
+2023,buybacks,12101,USD_m,ET,repurchase of class A common stock (cash flow statement)
+2024,buybacks,16713,USD_m,ET,
+2025,buybacks,18316,USD_m,ET,results presentation shows $18185m repurchased (trade-date basis)
+2015,buybacks,2900,USD_m,VER15Q4,44.1m shares at avg $65.98 (rounded $2.9bn)
+2020,buybacks,8114,USD_m,V10K22,share repurchase table total cost (trade-date basis)
+2021,buybacks,8676,USD_m,V10K22,share repurchase table total cost (trade-date basis)
+2022,buybacks,11589,USD_m,V10K22,share repurchase table total cost; 56.2m shares at avg $205.97
+2023,dividends_paid,3751,USD_m,ET,
+2024,dividends_paid,4217,USD_m,ET,
+2025,dividends_paid,4634,USD_m,ET,
+2024,total_assets,94511,USD_m,V10K25,
+2025,total_assets,99627,USD_m,V10K25,
+2024,total_liabilities,55374,USD_m,V10K25,
+2025,total_liabilities,61718,USD_m,V10K25,
+2024,long_term_debt,20836,USD_m,V10K25,non-current
+2025,long_term_debt,19602,USD_m,V10K25,non-current
+2024,current_debt,0,USD_m,V10K25,
+2025,current_debt,5569,USD_m,V10K25,current maturities of debt
+2024,cash_and_equivalents,11975,USD_m,V10Q26Q2,comparative column
+2025,cash_and_equivalents,17164,USD_m,V10Q26Q2,comparative column
+2025,investment_securities_current,1833,USD_m,ET,
+2025,investment_securities_noncurrent,999,USD_m,ET,
+2024,investment_securities_current,3200,USD_m,ET,
+2025,litigation_escrow,2990,USD_m,ET,restricted cash - U.S. litigation escrow
+2024,litigation_escrow,3089,USD_m,ET,restricted cash - U.S. litigation escrow
+2025,processed_transactions,257.5,bn,VER25Q4,+10% y/y
+2025,cross_border_growth_ex_europe,13,pct,V10K25,nominal cross-border volume growth excluding intra-Europe
+2015,cfo,6584,USD_m,MT,also MarketBeat
+2016,cfo,5574,USD_m,MT,also MarketBeat
+2017,cfo,9317,USD_m,MT,also MarketBeat (as re-presented after restricted-cash standard)
+2018,cfo,12941,USD_m,MT,also MarketBeat (as re-presented after restricted-cash standard)
+2015,capex,414,USD_m,FB,purchases of property equipment and technology
+2016,capex,523,USD_m,FB,
+2017,capex,707,USD_m,FB,
+2018,capex,718,USD_m,FB,
+2019,capex,756,USD_m,FB,= CFO 12784 less MT FCF 12028
+2020,capex,736,USD_m,FB,= CFO 10440 less MT FCF 9704
+2021,capex,705,USD_m,FB,
+2022,capex,970,USD_m,FB,= CFO 18849 less MT FCF 17879
+2023,capex,1059,USD_m,MT,derived: CFO 20755 less MT FCF 19696
+2024,capex,1257,USD_m,MT,derived: CFO 19950 less MT FCF 18693
+2015,sbc,187,USD_m,FB,
+2016,sbc,221,USD_m,FB,
+2017,sbc,235,USD_m,FB,
+2018,sbc,327,USD_m,FB,
+2019,sbc,407,USD_m,FB,
+2020,sbc,416,USD_m,FB,
+2021,sbc,542,USD_m,FB,
+2022,sbc,602,USD_m,FB,
+2015,dividends_paid,1177,USD_m,FB,also MarketBeat and MT
+2016,dividends_paid,1350,USD_m,FB,
+2017,dividends_paid,1579,USD_m,FB,
+2018,dividends_paid,1918,USD_m,FB,
+2019,dividends_paid,2269,USD_m,FB,
+2020,dividends_paid,2664,USD_m,FB,
+2021,dividends_paid,2798,USD_m,FB,
+2022,dividends_paid,3203,USD_m,FB,
+2016,buybacks,6987,USD_m,V10K16,share repurchase table total cost; release says 92.1m shares / $7.1bn
+2017,buybacks,6891,USD_m,EQ,
+2018,buybacks,7192,USD_m,EQ,
+2019,buybacks,8607,USD_m,EQ,also finboard
+2016,processed_transactions,83.2,bn,V10K16,83159m; includes Visa Europe from 21 Jun 2016
+2017,processed_transactions,111.2,bn,VAR19,
+2018,processed_transactions,124.3,bn,V10K18,
+2019,processed_transactions,138.3,bn,V10K19,
+2020,processed_transactions,140.8,bn,FW,secondary only - not verified in filing
+2021,processed_transactions,164.7,bn,V10K21,10-K text: 165 billion processed by Visa
+2022,processed_transactions,192.5,bn,VAR24,
+2023,processed_transactions,212.6,bn,VAR24,
+2024,processed_transactions,233.8,bn,VAR24,
+2021,payments_volume_jun,9971,USD_bn,V10K22,nominal; twelve months ended 30 June
+2022,payments_volume_jun,11464,USD_bn,V10K22,nominal; twelve months ended 30 June
+2023,payments_volume_jun,12088,USD_bn,V10K25,nominal; twelve months ended 30 June
+2024,payments_volume_jun,12988,USD_bn,V10K25,nominal; twelve months ended 30 June
+2025,payments_volume_jun,13894,USD_bn,V10K25,nominal; twelve months ended 30 June; US 6788 / international 7106
+2023,payments_volume_fy,12300,USD_bn,V10K25,fiscal year (annual report highlights)
+2024,payments_volume_fy,13200,USD_bn,V10K25,fiscal year (annual report highlights)
+2025,payments_volume_fy,14200,USD_bn,V10K25,fiscal year (annual report highlights)
+2018,total_volume_fy,11200,USD_bn,V10K18,payments plus cash volume
+2019,total_volume_fy,11600,USD_bn,VAR19,payments plus cash volume
+2022,total_volume_fy,14100,USD_bn,VAR24,payments plus cash volume
+2023,total_volume_fy,14800,USD_bn,V10K25,payments plus cash volume
+2024,total_volume_fy,15700,USD_bn,V10K25,payments plus cash volume
+2025,total_volume_fy,16700,USD_bn,V10K25,payments plus cash volume
+2020,payments_volume_growth_cc,2,pct,VER20Q4,twelve months ended 30 Sep 2020
+2020,cross_border_growth_ex_europe,-22,pct,VER20Q4,constant dollar
+2021,cross_border_growth_ex_europe,4,pct,V10K21,nominal
+2022,cross_border_growth_ex_europe,40,pct,VER22Q4,nominal per search summary (constant-dollar figure reported as 49%; table column order ambiguous - low confidence)
+2023,cross_border_growth_ex_europe,25,pct,VER23Q4,constant dollar
+2024,cross_border_growth_ex_europe,15,pct,VER24Q4,constant dollar
+2015,total_equity,29842,USD_m,MT,30 Sep quarter-end value
+2016,total_equity,32912,USD_m,MT,30 Sep quarter-end value
+2017,total_equity,32760,USD_m,MT,30 Sep quarter-end value
+2018,total_equity,34006,USD_m,MT,30 Sep quarter-end value
+2019,total_equity,34684,USD_m,MT,30 Sep quarter-end value
+2020,total_equity,36210,USD_m,MT,30 Sep quarter-end value
+2021,total_equity,37589,USD_m,V10K23,statement of changes in equity
+2022,total_equity,35581,USD_m,V10K23,statement of changes in equity
+2023,total_equity,38733,USD_m,SA,stockanalysis (matches filings for 2021-2022)
+2024,total_equity,39137,USD_m,V10K25,total assets less total liabilities
+2025,total_equity,37909,USD_m,V10K25,total assets less total liabilities
+2015,total_debt,0,USD_m,V10K15,inferred: Visa's first notes ($16bn) were issued Dec 2015 (Q1 FY2016 10-Q debt table); FY2015 10-K describes planned issuance
+2016,total_debt,15882,USD_m,MT,no current maturities at 30 Sep 2016
+2017,total_debt,18367,USD_m,V10K17,carrying amount incl. $1749m current (Dec-2017 notes redeemed Oct 2017)
+2018,total_debt,16630,USD_m,MT,long-term debt; no maturities in FY2019
+2019,total_debt,16729,USD_m,MT,long-term debt; no maturities in FY2020 before Dec 2020
+2020,total_debt,24070,USD_m,V10K20,current 2999 + long-term 21071
+2021,total_debt,20977,USD_m,V10K21,current 999 + long-term 19978
+2022,total_debt,22450,USD_m,V10K22,long-term 20200 + 2250 due Dec 2022 (inferred from maturity schedule)
+2023,total_debt,20463,USD_m,MT,no maturities between Oct 2023 and Sep 2024 (next: Dec 2025)
+2024,total_debt,20836,USD_m,V10K25,no current maturities
+2025,total_debt,25171,USD_m,V10K25,current 5569 + long-term 19602
+2020,cash_and_investments,20272,USD_m,V10K21,cash 16289 + investment securities 3752 current + 231 non-current
+2021,cash_and_investments,20217,USD_m,V10K21,cash 16487 + investment securities 2025 + 1705
+2022,cash_and_investments,20658,USD_m,V10K23,cash 15689 + investment securities 2833 + 2136
+2023,cash_and_investments,22049,USD_m,V10K23,cash 16286 + investment securities 3842 + 1921
+2024,cash_and_investments,17375,USD_m,V10K24,approx: cash 11975 + available-for-sale debt securities ~5.4bn (liquidity section)
+2025,cash_and_investments,19996,USD_m,V10K25,cash 17164 + investment securities 1833 + 999
+2020,total_assets,80919,USD_m,V10K21,
+2021,total_assets,82896,USD_m,V10K21,
+2022,total_assets,85501,USD_m,VER23Q4,
+2023,total_assets,90499,USD_m,VER23Q4,
+2025,goodwill,19879,USD_m,V10K25,
+2025,intangibles_net,27646,USD_m,V10K25,of which indefinite-lived 27415 (customer relationships & reacquired rights 23331; Visa trade name 4084)
+2023,effective_tax_rate,18,pct,V10K25,
+2024,effective_tax_rate,17,pct,V10K25,release: 17.4%
+2025,effective_tax_rate,17,pct,V10K25,includes $263m benefit
+2025,vas_revenue,10900,USD_m,V10K25,value-added services; +24%
+2024,vas_revenue,8800,USD_m,V10K25,
+2023,vas_revenue,7200,USD_m,V10K25,
+2026,dividend_per_share_quarterly,0.67,USD,VER26Q3,declared Jan/Apr/Jul 2026
