@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+video/build/
+video/models/
+video/media/
+video/*_preview.mp4

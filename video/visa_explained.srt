@@ -1,0 +1,2262 @@
+1
+00:00:00,000 --> 00:00:03,117
+This video explains my
+investment report on Visa,
+
+2
+00:00:03,117 --> 00:00:06,806
+the card network, ticker V on
+the New York Stock Exchange.
+
+3
+00:00:07,100 --> 00:00:10,203
+The analysis date is 17 October 2026.
+
+4
+00:00:10,203 --> 00:00:15,319
+It explains an analysis; it is
+not personal financial advice.
+
+5
+00:00:16,133 --> 00:00:20,260
+Here is the question. You live
+in Norway, you invest in kroner,
+
+6
+00:00:20,260 --> 00:00:23,404
+and you are thinking of
+putting 30,000 to 50,000
+
+7
+00:00:23,404 --> 00:00:25,762
+kroner into Visa for 10 to 20 years,
+
+8
+00:00:25,762 --> 00:00:28,382
+instead of a low-cost global index fund.
+
+9
+00:00:28,700 --> 00:00:31,847
+So the question is not whether
+Visa is a good company.
+
+10
+00:00:31,847 --> 00:00:35,751
+It is whether Visa, at today's
+price, beats the index fund for you.
+
+11
+00:00:36,567 --> 00:00:38,778
+The bottom line first: hold, or wait.
+
+12
+00:00:39,067 --> 00:00:47,446
+Don't buy at today's $402.61. Become
+a buyer at or below about $345.
+
+13
+00:00:48,133 --> 00:00:53,014
+Visa is an exceptional business, but
+at this price its expected return,
+
+14
+00:00:53,014 --> 00:00:56,726
+about 8.5% a year, is no
+better than the index fund's,
+
+15
+00:00:56,726 --> 00:00:59,064
+and a single stock is far riskier.
+
+16
+00:00:59,867 --> 00:01:03,858
+The video has three parts: is this
+a great business, what is it worth,
+
+17
+00:01:03,858 --> 00:01:07,791
+and how does it compare with the
+index fund for a Norwegian investor?
+
+18
+00:01:08,600 --> 00:01:12,885
+I'll lean on maths you know from
+engineering, like exponentials, series,
+
+19
+00:01:12,885 --> 00:01:17,884
+derivatives and root finding, and define
+each finance concept when it first appears.
+
+20
+00:01:18,200 --> 00:01:21,511
+As in the report, I separate
+facts from cited sources,
+
+21
+00:01:21,511 --> 00:01:26,416
+estimates from my Python models, and my
+own judgments, with three coloured tags.
+
+22
+00:01:27,933 --> 00:01:29,933
+Chapter one. How Visa makes money.
+
+23
+00:01:31,333 --> 00:01:34,696
+When you tap a Visa card in a
+shop, four parties are involved.
+
+24
+00:01:35,000 --> 00:01:36,827
+You, the cardholder. The merchant.
+
+25
+00:01:36,827 --> 00:01:39,030
+The merchant's bank, called the acquirer.
+
+26
+00:01:39,030 --> 00:01:41,771
+And your bank, the issuer,
+which gave you the card.
+
+27
+00:01:42,067 --> 00:01:44,625
+Visa's network, VisaNet,
+sits in the middle.
+
+28
+00:01:44,625 --> 00:01:47,242
+It carries the message
+between the two banks,
+
+29
+00:01:47,242 --> 00:01:51,022
+gets the payment approved, and
+then clears and settles the money.
+
+30
+00:01:51,333 --> 00:01:53,829
+The merchant pays a fee on every purchase.
+
+31
+00:01:53,829 --> 00:01:57,632
+Most of it, the interchange fee,
+goes to your bank, not to Visa.
+
+32
+00:01:57,933 --> 00:02:01,179
+Visa charges its own, much
+smaller fees to both banks,
+
+33
+00:02:01,179 --> 00:02:05,746
+and pays part of them back as client
+incentives, to win the banks' business.
+
+34
+00:02:06,533 --> 00:02:10,407
+In fiscal 2025, the year to 30 September,
+
+35
+00:02:10,407 --> 00:02:15,320
+that gave gross revenue of
+$55.8bn, from four lines.
+
+36
+00:02:15,633 --> 00:02:18,418
+Service revenue is
+charged on payment volume,
+
+37
+00:02:18,418 --> 00:02:21,389
+and data processing revenue
+on each transaction.
+
+38
+00:02:21,700 --> 00:02:23,824
+International transaction revenue,
+
+39
+00:02:23,824 --> 00:02:27,011
+from cross-border payments
+and currency conversion,
+
+40
+00:02:27,011 --> 00:02:29,885
+is the most profitable
+and most cyclical line.
+
+41
+00:02:29,885 --> 00:02:33,510
+Other revenue includes licensing
+and value-added services.
+
+42
+00:02:33,800 --> 00:02:39,121
+The client incentives of $15.8bn
+are subtracted as contra revenue,
+
+43
+00:02:39,121 --> 00:02:44,362
+which means negative revenue. That
+leaves net revenue of $40.0bn.
+
+44
+00:02:45,167 --> 00:02:49,191
+An engineer's model of this business:
+revenue is traffic times a toll.
+
+45
+00:02:49,500 --> 00:02:54,797
+Visa processed 257.5 billion
+transactions in fiscal 2025,
+
+46
+00:02:54,797 --> 00:03:01,024
+which works out at about 15.5 cents
+of net revenue per transaction.
+
+47
+00:03:01,333 --> 00:03:05,860
+Since 2016 the number of
+transactions has more than tripled,
+
+48
+00:03:05,860 --> 00:03:09,933
+while the toll has stayed
+between 14.6 and 18.1 cents.
+
+49
+00:03:10,733 --> 00:03:14,728
+Notice what Visa is not: a lender.
+Your bank extends the credit,
+
+50
+00:03:14,728 --> 00:03:18,410
+sets the interest rate and
+takes the loss if you don't pay.
+
+51
+00:03:18,410 --> 00:03:21,094
+Visa has no loan book
+and no credit losses.
+
+52
+00:03:21,400 --> 00:03:24,621
+Its one balance-sheet risk is settlement:
+
+53
+00:03:24,621 --> 00:03:29,098
+it guarantees payments between
+banks if one fails to pay.
+
+54
+00:03:29,098 --> 00:03:33,183
+The peak daily exposure in
+fiscal 2025 was $153.4bn,
+
+55
+00:03:33,183 --> 00:03:37,581
+but Visa says its losses have
+historically been minimal.
+
+56
+00:03:39,097 --> 00:03:41,739
+Chapter two. Why the
+economics are exceptional.
+
+57
+00:03:43,131 --> 00:03:45,100
+Why can Visa charge a toll at all?
+
+58
+00:03:45,100 --> 00:03:47,301
+Because of a two-sided network effect.
+
+59
+00:03:47,597 --> 00:03:50,684
+Cardholders want a card
+that is accepted everywhere,
+
+60
+00:03:50,684 --> 00:03:53,888
+and merchants accept the
+cards that cardholders carry.
+
+61
+00:03:53,888 --> 00:03:56,322
+A newcomer has to win both sides at once.
+
+62
+00:03:56,631 --> 00:04:01,037
+That's why the same few networks
+have dominated for decades.
+
+63
+00:04:01,037 --> 00:04:06,544
+In 2025, Visa handled 40.8% of all card
+purchase transactions in the world.
+
+64
+00:04:07,331 --> 00:04:09,906
+The second reason is operating leverage.
+
+65
+00:04:09,906 --> 00:04:14,090
+Most of Visa's costs are fixed:
+people, technology and marketing.
+
+66
+00:04:14,090 --> 00:04:16,794
+One more transaction costs almost nothing.
+
+67
+00:04:17,097 --> 00:04:21,206
+Write the costs as a fixed
+part F, plus v per transaction.
+
+68
+00:04:21,206 --> 00:04:24,748
+With revenue p per transaction
+and Q transactions,
+
+69
+00:04:24,748 --> 00:04:29,141
+the operating margin is one,
+minus v over p, minus F over p Q.
+
+70
+00:04:29,431 --> 00:04:33,425
+As Q grows, the fixed-cost
+term falls like one over Q,
+
+71
+00:04:33,425 --> 00:04:36,458
+and the margin climbs toward its ceiling.
+
+72
+00:04:36,458 --> 00:04:42,154
+Visa's network and processing costs were
+just 2.2% of revenue in fiscal 2025.
+
+73
+00:04:42,964 --> 00:04:46,672
+The operating margin is operating
+profit divided by revenue:
+
+74
+00:04:46,672 --> 00:04:50,628
+what's left after running the
+business, before interest and tax.
+
+75
+00:04:50,931 --> 00:04:54,893
+Under GAAP, the official
+US accounting rules,
+
+76
+00:04:54,893 --> 00:05:01,233
+Visa's was 60.0% in fiscal 2025, a
+year with a $2.6bn lawsuit provision.
+
+77
+00:05:01,233 --> 00:05:07,837
+Management's adjusted, non-GAAP figures
+leave such items out, giving 67.7%.
+
+78
+00:05:08,131 --> 00:05:11,138
+That adjusted margin has
+been flat for three years,
+
+79
+00:05:11,138 --> 00:05:15,088
+so future profit growth must come
+mainly from revenue and buybacks.
+
+80
+00:05:15,897 --> 00:05:19,970
+The third measure is return
+on invested capital, or ROIC.
+
+81
+00:05:19,970 --> 00:05:22,471
+Think of the business as a machine:
+
+82
+00:05:22,471 --> 00:05:27,686
+ROIC is the after-tax operating profit
+per dollar of capital put into it.
+
+83
+00:05:27,997 --> 00:05:31,404
+The providers of that
+capital expect a return,
+
+84
+00:05:31,404 --> 00:05:35,106
+the cost of capital, which
+for Visa is about 8.5%.
+
+85
+00:05:35,106 --> 00:05:37,402
+I'll derive it in chapter five.
+
+86
+00:05:37,402 --> 00:05:41,474
+Value is created when ROIC
+exceeds the cost of capital.
+
+87
+00:05:42,364 --> 00:05:52,552
+Visa's ROIC rose from 21% in fiscal 2015
+to 32% in 2025, and to 46% net of its cash.
+
+88
+00:05:53,364 --> 00:05:55,575
+Even that understates it.
+
+89
+00:05:55,575 --> 00:06:01,767
+$47.5bn of Visa's assets are goodwill
+and intangibles from past deals,
+
+90
+00:06:01,767 --> 00:06:06,454
+more than its entire net
+invested capital of $43.1bn.
+
+91
+00:06:06,454 --> 00:06:09,373
+Its tangible capital is negative.
+
+92
+00:06:09,664 --> 00:06:12,842
+Capital expenditure was
+only 3.7% of revenue.
+
+93
+00:06:12,842 --> 00:06:15,738
+Visa needs almost no new capital to grow,
+
+94
+00:06:15,738 --> 00:06:19,199
+which is why nearly all
+its cash can be paid out.
+
+95
+00:06:20,697 --> 00:06:22,875
+Chapter three. Growth and compounding.
+
+96
+00:06:24,264 --> 00:06:32,203
+Net revenue grew from $13.9bn in
+fiscal 2015 to $40.0bn in 2025.
+
+97
+00:06:32,497 --> 00:06:36,976
+Finance summarises this with the
+compound annual growth rate, or CAGR:
+
+98
+00:06:36,976 --> 00:06:41,071
+the constant yearly rate that
+connects the start and end values.
+
+99
+00:06:41,071 --> 00:06:45,167
+It's the geometric mean of the
+yearly growth factors, minus one.
+
+100
+00:06:45,464 --> 00:06:50,154
+Here: 40.0 divided by 13.88,
+to the power one tenth,
+
+101
+00:06:50,154 --> 00:06:53,131
+minus one, which is 11.2% a year.
+
+102
+00:06:53,431 --> 00:06:57,232
+On a log scale, compound growth
+is a straight line whose slope
+
+103
+00:06:57,232 --> 00:06:59,624
+is the log of one plus the growth rate.
+
+104
+00:06:59,624 --> 00:07:04,467
+The doubling time is log two divided by
+that slope: about six and a half years.
+
+105
+00:07:04,764 --> 00:07:09,948
+Excluding the boost from the
+2016 Visa Europe acquisition,
+
+106
+00:07:09,948 --> 00:07:14,327
+growth was 10.2% a year
+from fiscal 2017 to 2025,
+
+107
+00:07:14,327 --> 00:07:19,422
+and it was 15.3% in the first
+nine months of fiscal 2026.
+
+108
+00:07:20,231 --> 00:07:22,874
+Shareholders care about profit per share.
+
+109
+00:07:22,874 --> 00:07:27,644
+Earnings per share, or EPS, is net
+income divided by the number of shares.
+
+110
+00:07:27,931 --> 00:07:31,666
+Write it as revenue, times
+net margin, divided by shares.
+
+111
+00:07:31,666 --> 00:07:36,581
+Take logs and differentiate with respect
+to time, and the growth rates add:
+
+112
+00:07:36,581 --> 00:07:41,758
+EPS growth equals revenue growth, plus
+margin growth, minus share-count growth.
+
+113
+00:07:42,064 --> 00:07:45,255
+Visa's non-GAAP EPS grew 15.9% a year.
+
+114
+00:07:45,255 --> 00:07:49,119
+In log terms, that's
+10.6 points from revenue,
+
+115
+00:07:49,119 --> 00:07:53,906
+2.0 from a wider margin, and
+2.2 from buying back shares.
+
+116
+00:07:54,697 --> 00:07:58,408
+One trend works against shareholders.
+
+117
+00:07:58,408 --> 00:08:06,730
+Client incentives rose from 17.1% of gross
+revenue in fiscal 2015 to 28.3% in 2025.
+
+118
+00:08:07,031 --> 00:08:11,542
+Part of the 2019 step is an accounting
+change, but the direction is clear:
+
+119
+00:08:11,542 --> 00:08:15,017
+the big banks are capturing
+a growing share of the value.
+
+120
+00:08:15,017 --> 00:08:17,151
+It's one of the signals to monitor.
+
+121
+00:08:17,964 --> 00:08:21,181
+In recessions, revenue has
+held up remarkably well,
+
+122
+00:08:21,181 --> 00:08:23,956
+because Visa earns on
+spending, not lending.
+
+123
+00:08:24,264 --> 00:08:31,675
+In fiscal 2009 it grew 10%. In 2020,
+with travel shut down, it fell only 4.9%,
+
+124
+00:08:31,675 --> 00:08:35,285
+although cross-border volume fell 22%.
+
+125
+00:08:35,597 --> 00:08:39,455
+The share price is another matter.
+
+126
+00:08:39,455 --> 00:08:44,221
+It fell 52% in 2008 and 2009, 36% in 2020,
+
+127
+00:08:44,221 --> 00:08:49,667
+and 25% in 2022, a year
+when revenue grew 21.6%.
+
+128
+00:08:49,964 --> 00:08:52,767
+The business is far more
+defensive than the stock.
+
+129
+00:08:52,767 --> 00:08:56,858
+The price moves with what investors
+will pay for each dollar of earnings,
+
+130
+00:08:56,858 --> 00:08:59,269
+and that depends heavily
+on interest rates.
+
+131
+00:09:00,764 --> 00:09:03,457
+Chapter four. Free cash
+flow, and where it goes.
+
+132
+00:09:04,864 --> 00:09:09,149
+Accounting profit isn't cash. So
+investors look at free cash flow:
+
+133
+00:09:09,149 --> 00:09:12,266
+cash from operations,
+minus capital expenditure.
+
+134
+00:09:12,564 --> 00:09:15,049
+Draw a control volume around the company.
+
+135
+00:09:15,049 --> 00:09:18,018
+Free cash flow is what
+crosses the boundary after
+
+136
+00:09:18,018 --> 00:09:20,988
+the business has paid to
+run and maintain itself:
+
+137
+00:09:20,988 --> 00:09:23,230
+the cash that could go to its owners.
+
+138
+00:09:24,031 --> 00:09:29,605
+Visa's free cash flow was
+$21.6bn in fiscal 2025,
+
+139
+00:09:29,605 --> 00:09:37,228
+53.9% of revenue, and it has
+compounded at 13.3% a year since 2015.
+
+140
+00:09:37,531 --> 00:09:42,951
+The margin has drifted down, from
+about 60% in fiscal 2021 to 2023,
+
+141
+00:09:42,951 --> 00:09:45,945
+to 47.2% over the last twelve months.
+
+142
+00:09:45,945 --> 00:09:50,151
+I couldn't pin down why,
+so I treat it with caution.
+
+143
+00:09:50,964 --> 00:09:55,540
+Part of Visa's staff pay is in shares,
+called stock-based compensation.
+
+144
+00:09:55,540 --> 00:10:00,825
+No cash leaves, but it dilutes existing
+owners just like a cost, so I subtract it.
+
+145
+00:10:01,131 --> 00:10:05,780
+Averaging the last three years
+and the latest twelve months gives
+
+146
+00:10:05,780 --> 00:10:10,071
+a normal free cash flow after
+stock pay of 51.1% of revenue.
+
+147
+00:10:10,071 --> 00:10:12,717
+That's the margin the valuation uses.
+
+148
+00:10:13,531 --> 00:10:20,030
+Because Visa needs so little capital,
+the cash goes back to shareholders:
+
+149
+00:10:20,030 --> 00:10:27,064
+$138bn from fiscal 2015 to 2025, 94% of
+its free cash flow, mostly as buybacks.
+
+150
+00:10:27,364 --> 00:10:29,151
+A dividend is cash paid to you.
+
+151
+00:10:29,151 --> 00:10:33,014
+A buyback is the company buying
+its own shares and cancelling them,
+
+152
+00:10:33,014 --> 00:10:36,473
+so each remaining share owns a
+bigger slice of the business.
+
+153
+00:10:37,264 --> 00:10:44,477
+Visa's share count fell 2.2% a year, which
+is the buyback term in the EPS equation.
+
+154
+00:10:44,477 --> 00:10:47,345
+The dividend yield is only 0.67%.
+
+155
+00:10:48,864 --> 00:10:52,241
+Chapter five. The time value of
+money, and the discount rate.
+
+156
+00:10:53,631 --> 00:10:54,755
+Now the valuation.
+
+157
+00:10:54,755 --> 00:10:59,190
+It rests on one idea: a dollar today
+is worth more than a dollar later,
+
+158
+00:10:59,190 --> 00:11:02,750
+because today's dollar can be
+invested and earn a return.
+
+159
+00:11:03,064 --> 00:11:08,516
+At a rate r per year, a dollar grows to
+one plus r to the power t after t years.
+
+160
+00:11:08,516 --> 00:11:11,583
+So a cash flow C received
+in t years is worth
+
+161
+00:11:11,583 --> 00:11:14,241
+C divided by one plus r to the t today.
+
+162
+00:11:14,531 --> 00:11:17,562
+That's its present value, and
+r is called the discount rate.
+
+163
+00:11:18,364 --> 00:11:21,081
+The discount factor is exponential decay,
+
+164
+00:11:21,081 --> 00:11:26,648
+e to the minus t times log of one plus r:
+the same curve as Newton's law of cooling.
+
+165
+00:11:26,964 --> 00:11:31,212
+At 8.5%, the half-life is
+about eight and a half years:
+
+166
+00:11:31,212 --> 00:11:37,623
+a dollar due in 2035 is worth about fifty
+cents today. At 12% it's about six years.
+
+167
+00:11:37,931 --> 00:11:41,738
+So the discount rate decides how
+much distant cash flows count,
+
+168
+00:11:41,738 --> 00:11:45,304
+and for Visa, most of the value
+lies in the distant future.
+
+169
+00:11:46,097 --> 00:11:49,007
+Which rate? The discount rate
+is your opportunity cost:
+
+170
+00:11:49,007 --> 00:11:51,865
+the return you could earn
+elsewhere for the same risk.
+
+171
+00:11:52,164 --> 00:11:54,571
+Start from the risk-free rate,
+
+172
+00:11:54,571 --> 00:12:00,429
+what the US government pays to borrow
+for ten years: 5.08% on 16 October.
+
+173
+00:12:00,731 --> 00:12:03,626
+Shares are riskier than government bonds,
+
+174
+00:12:03,626 --> 00:12:08,429
+so investors demand an extra return,
+called the equity risk premium.
+
+175
+00:12:08,429 --> 00:12:13,090
+A widely used estimate, from
+Professor Aswath Damodaran, is 4.20%.
+
+176
+00:12:13,897 --> 00:12:16,646
+How much of that premium
+applies to Visa depends
+
+177
+00:12:16,646 --> 00:12:20,541
+on how strongly it moves with the
+market, which is measured by beta.
+
+178
+00:12:20,831 --> 00:12:25,360
+Plot Visa's monthly returns against
+the market's and fit a straight line:
+
+179
+00:12:25,360 --> 00:12:29,145
+beta is the slope. Above one,
+a stock amplifies market moves.
+
+180
+00:12:29,145 --> 00:12:30,697
+Below one, it damps them.
+
+181
+00:12:30,997 --> 00:12:34,097
+Visa's five-year beta is 0.75.
+
+182
+00:12:34,897 --> 00:12:38,550
+The capital asset pricing
+model, or CAPM, combines them:
+
+183
+00:12:38,550 --> 00:12:41,550
+the required return
+equals the risk-free rate,
+
+184
+00:12:41,550 --> 00:12:44,158
+plus beta times the equity risk premium.
+
+185
+00:12:44,464 --> 00:12:52,096
+5.08%, plus 0.75 times 4.20%, gives 8.23%.
+
+186
+00:12:52,397 --> 00:12:57,992
+I round that up to 8.5% for the risks
+specific to one company and its regulators.
+
+187
+00:12:57,992 --> 00:13:02,965
+That's a judgment, and CAPM is a
+first-order model with wide error bars.
+
+188
+00:13:02,965 --> 00:13:05,797
+Chapter seven shows how much they matter.
+
+189
+00:13:07,297 --> 00:13:09,862
+Chapter six. The
+discounted cash flow model.
+
+190
+00:13:11,264 --> 00:13:13,712
+A discounted cash flow model, or DCF,
+
+191
+00:13:13,712 --> 00:13:16,688
+says a business is worth
+the present value of
+
+192
+00:13:16,688 --> 00:13:21,451
+all the free cash flow it will ever
+produce: the sum, over future years,
+
+193
+00:13:21,451 --> 00:13:25,354
+of free cash flow in year t
+divided by one plus r to the t.
+
+194
+00:13:25,664 --> 00:13:27,532
+I forecast ten years explicitly,
+
+195
+00:13:27,532 --> 00:13:31,734
+and treat everything after that as
+one block, called the terminal value.
+
+196
+00:13:32,531 --> 00:13:39,330
+The forecast starts from analysts'
+consensus revenue for fiscal 2026, $45.7bn.
+
+197
+00:13:39,330 --> 00:13:42,381
+It grows 10% a year for five years,
+
+198
+00:13:42,381 --> 00:13:47,611
+then the growth rate fades in
+a straight line to 4% by 2036.
+
+199
+00:13:47,931 --> 00:13:53,788
+Free cash flow is 51.1%
+of revenue every year,
+
+200
+00:13:53,788 --> 00:14:00,409
+so it rises from $25.7bn
+in 2027 to $51.3bn in 2036.
+
+201
+00:14:00,697 --> 00:14:02,486
+Now discount each year's cash flow,
+
+202
+00:14:02,486 --> 00:14:05,808
+from the middle of the year, since
+cash arrives through the year.
+
+203
+00:14:06,097 --> 00:14:14,900
+Watch the bars shrink. The $51.3bn
+of 2036 is worth only $23.6bn today.
+
+204
+00:14:14,900 --> 00:14:20,232
+Together, the ten years
+are worth $252.5bn.
+
+205
+00:14:21,031 --> 00:14:26,198
+After 2036, I assume free cash
+flow grows 4% a year forever:
+
+206
+00:14:26,198 --> 00:14:29,557
+about 2% inflation plus 2% real growth.
+
+207
+00:14:29,864 --> 00:14:33,900
+Each year's cash flow is the
+previous one times one plus g,
+
+208
+00:14:33,900 --> 00:14:36,910
+discounted by one more
+factor of one plus r.
+
+209
+00:14:36,910 --> 00:14:41,288
+That's a geometric series with
+ratio one plus g over one plus r.
+
+210
+00:14:41,597 --> 00:14:46,926
+For r greater than g it converges to next
+year's cash flow divided by r minus g:
+
+211
+00:14:46,926 --> 00:14:48,658
+the Gordon growth formula.
+
+212
+00:14:48,658 --> 00:14:53,787
+For r less than or equal to g it diverges,
+a warning sign we'll come back to.
+
+213
+00:14:54,097 --> 00:15:00,768
+$51.3bn times 1.04,
+divided by 8.5% minus 4%,
+
+214
+00:15:00,768 --> 00:15:11,293
+gives a terminal value of $1.18
+trillion in 2036, worth $545.8bn today.
+
+215
+00:15:12,097 --> 00:15:18,256
+Together, that's $798bn, the
+enterprise value of the whole business.
+
+216
+00:15:18,256 --> 00:15:23,238
+Subtract net debt, which is
+debt minus cash, of $5.2bn,
+
+217
+00:15:23,238 --> 00:15:27,404
+and divide by the share
+count: $419 per share.
+
+218
+00:15:27,697 --> 00:15:29,698
+That's 4% above today's price.
+
+219
+00:15:29,698 --> 00:15:33,166
+On these assumptions, Visa
+is roughly fairly priced.
+
+220
+00:15:33,464 --> 00:15:37,198
+But 68% of the value comes
+from cash flows after 2036.
+
+221
+00:15:37,198 --> 00:15:40,448
+Most of what you pay for
+is the distant future,
+
+222
+00:15:40,448 --> 00:15:43,628
+exactly where the discount
+rate bites hardest.
+
+223
+00:15:45,131 --> 00:15:48,789
+Chapter seven. Sensitivity: why
+the discount rate dominates.
+
+224
+00:15:50,197 --> 00:15:55,441
+Start with the terminal value: value
+over cash flow equals one over r minus g.
+
+225
+00:15:55,441 --> 00:15:59,811
+As a function of r, that's a
+hyperbola with a pole at r equals g,
+
+226
+00:15:59,811 --> 00:16:02,298
+like a response curve near resonance.
+
+227
+00:16:02,597 --> 00:16:07,384
+At r of 8.5% and g of 4%, we
+sit 4.5 points from the pole,
+
+228
+00:16:07,384 --> 00:16:09,942
+where the curve is still steep.
+
+229
+00:16:10,231 --> 00:16:15,922
+The log-derivative of the value with
+respect to r is minus one over r minus g,
+
+230
+00:16:15,922 --> 00:16:20,374
+about minus 22. So each percentage
+point on the discount rate
+
+231
+00:16:20,374 --> 00:16:23,292
+moves the terminal value by roughly 22%.
+
+232
+00:16:23,292 --> 00:16:25,773
+Bond investors call this duration.
+
+233
+00:16:26,564 --> 00:16:30,556
+The full model behaves the same way:
+
+234
+00:16:30,556 --> 00:16:36,434
+$376 per share at a 9%
+discount rate, and $472 at 8%.
+
+235
+00:16:36,731 --> 00:16:40,799
+Half a point either way, well
+inside CAPM's error bars,
+
+236
+00:16:40,799 --> 00:16:45,312
+moves the answer from 7% below
+today's price to 17% above it.
+
+237
+00:16:46,131 --> 00:16:49,903
+This grid shows the value for
+different growth and discount rates.
+
+238
+00:16:49,903 --> 00:16:53,046
+Blue cells are above today's
+price, orange cells below.
+
+239
+00:16:53,364 --> 00:16:58,121
+The boundary runs diagonally, because higher
+growth offsets a higher discount rate,
+
+240
+00:16:58,121 --> 00:17:00,127
+and the base case sits right on it.
+
+241
+00:17:00,931 --> 00:17:07,411
+Terminal growth from 3
+to 5% gives $357 to $516,
+
+242
+00:17:07,411 --> 00:17:15,781
+and a free cash flow margin from
+45 to 57% gives $368 to $467.
+
+243
+00:17:16,097 --> 00:17:21,165
+The honest answer: about fair value, with
+wide error bars, and no margin of safety.
+
+244
+00:17:22,664 --> 00:17:25,954
+Chapter eight. The reverse
+DCF: what is priced in?
+
+245
+00:17:27,364 --> 00:17:30,572
+Because the inputs are so
+uncertain, flip the question.
+
+246
+00:17:30,572 --> 00:17:34,130
+Take the price as given, and
+solve for the growth it implies.
+
+247
+00:17:34,431 --> 00:17:37,176
+Value increases smoothly
+with the growth rate,
+
+248
+00:17:37,176 --> 00:17:40,219
+so we need the root of
+value of g, minus the price.
+
+249
+00:17:41,031 --> 00:17:45,001
+The script uses bisection. Start
+with a bracket where the value is too
+
+250
+00:17:45,001 --> 00:17:47,326
+low at one end and too high at the other.
+
+251
+00:17:47,631 --> 00:17:51,646
+Evaluate the midpoint, keep the half
+that contains the root, and repeat.
+
+252
+00:17:51,646 --> 00:17:53,319
+Each step halves the interval.
+
+253
+00:17:53,631 --> 00:18:00,752
+The answer: 9.3% a year from fiscal
+2027 to 2031, then fading to 4%.
+
+254
+00:18:00,752 --> 00:18:04,418
+Over ten years, that's 7.7% a year.
+
+255
+00:18:05,231 --> 00:18:09,617
+Visa's history is 10.2% a
+year from fiscal 2017 to 2025.
+
+256
+00:18:09,617 --> 00:18:14,237
+So the price assumes Visa
+roughly repeats its track record:
+
+257
+00:18:14,237 --> 00:18:17,840
+achievable, but with no
+credit for a slowdown.
+
+258
+00:18:18,131 --> 00:18:21,653
+And again the discount rate dominates.
+
+259
+00:18:21,653 --> 00:18:27,122
+At 9.5% instead of 8.5%, the
+implied growth jumps to 13.0%.
+
+260
+00:18:28,628 --> 00:18:31,320
+Chapter nine. Multiples,
+the market's shorthand.
+
+261
+00:18:32,728 --> 00:18:35,670
+Investors also use
+shortcuts called multiples.
+
+262
+00:18:35,670 --> 00:18:38,676
+The most common is the
+price-to-earnings ratio,
+
+263
+00:18:38,676 --> 00:18:41,938
+P/E: the share price divided
+by earnings per share.
+
+264
+00:18:42,228 --> 00:18:44,961
+For an engineer, P/E is a payback time:
+
+265
+00:18:44,961 --> 00:18:48,744
+a P/E of 34 means paying 34
+years of today's earnings.
+
+266
+00:18:48,744 --> 00:18:54,279
+Trailing multiples use the last twelve
+months; forward multiples use forecasts.
+
+267
+00:18:55,095 --> 00:18:59,611
+Visa trades at 34.3 times
+trailing GAAP earnings,
+
+268
+00:18:59,611 --> 00:19:05,234
+31.5 times non-GAAP, and 26.9
+times the fiscal 2027 forecast.
+
+269
+00:19:05,234 --> 00:19:10,395
+The S&P 500 index trades at
+19.0 times forward earnings.
+
+270
+00:19:11,195 --> 00:19:15,837
+Against its own history, Visa is
+somewhat expensive but not extreme:
+
+271
+00:19:15,837 --> 00:19:20,411
+today's P/E is at the 73rd percentile
+of its last eleven year-ends.
+
+272
+00:19:21,228 --> 00:19:24,828
+The comparison with bonds is more telling.
+
+273
+00:19:24,828 --> 00:19:31,513
+Visa's free cash flow yield, free cash
+flow divided by market value, is 2.75%.
+
+274
+00:19:31,513 --> 00:19:34,513
+The ten-year Treasury yields 5.08%.
+
+275
+00:19:34,828 --> 00:19:39,798
+Until 2022, Visa's cash yield was
+above the Treasury yield every year.
+
+276
+00:19:39,798 --> 00:19:44,769
+Today it is 2.3 percentage points
+below, the widest gap in the series.
+
+277
+00:19:45,561 --> 00:19:50,081
+Why accept less than a risk-free bond?
+Because you expect growth. Rearranged,
+
+278
+00:19:50,081 --> 00:19:54,660
+the Gordon formula says the return equals
+the cash yield plus the growth rate.
+
+279
+00:19:54,961 --> 00:20:00,984
+With an 8.5% required return and a
+2.9% yield on next year's cash flow,
+
+280
+00:20:00,984 --> 00:20:04,122
+the price needs 5.6% growth, forever.
+
+281
+00:20:04,122 --> 00:20:07,939
+The multiples tell the
+same story as the DCF.
+
+282
+00:20:09,428 --> 00:20:12,412
+Chapter ten. Scenarios
+and the expected return.
+
+283
+00:20:13,828 --> 00:20:17,130
+A valuation gives a number,
+but you need a return.
+
+284
+00:20:17,130 --> 00:20:21,093
+The standard measure is the
+internal rate of return, or IRR.
+
+285
+00:20:21,395 --> 00:20:23,872
+On a timeline, you pay the price today,
+
+286
+00:20:23,872 --> 00:20:26,983
+receive dividends each
+year, and sell at the end.
+
+287
+00:20:26,983 --> 00:20:29,714
+The IRR is the discount
+rate that makes the
+
+288
+00:20:29,714 --> 00:20:34,350
+net present value of these cash flows
+zero: another root-finding problem.
+
+289
+00:20:35,161 --> 00:20:37,284
+To forecast the cash flows,
+
+290
+00:20:37,284 --> 00:20:42,630
+start from analysts' forecast of
+earnings per share for fiscal 2027,
+
+291
+00:20:42,630 --> 00:20:45,696
+$14.94, and grow it at a scenario rate.
+
+292
+00:20:45,995 --> 00:20:50,269
+The exit price is the earnings at
+that time, times a P/E multiple,
+
+293
+00:20:50,269 --> 00:20:54,283
+and along the way you collect
+dividends at today's 21% payout.
+
+294
+00:20:54,283 --> 00:20:58,946
+So two levers decide the return:
+earnings growth, and the exit multiple.
+
+295
+00:20:59,761 --> 00:21:05,207
+In the bear case, at 25%, US routing
+rules or a court remedy bite,
+
+296
+00:21:05,207 --> 00:21:09,414
+rival payment systems
+spread, and a recession hits.
+
+297
+00:21:09,414 --> 00:21:13,787
+Earnings grow 5% a year and
+the multiple falls to 18:
+
+298
+00:21:13,787 --> 00:21:17,417
+$343 after five years,
+or minus 2.2% a year.
+
+299
+00:21:17,728 --> 00:21:25,604
+In the base case, at 50%, growth fades
+gradually and the multiple drifts down to 24.
+
+300
+00:21:25,604 --> 00:21:30,011
+Earnings grow 11% a year:
+$604, or 9.3% a year.
+
+301
+00:21:30,328 --> 00:21:37,475
+In the bull case, at 25%, new businesses
+accelerate and regulation is benign.
+
+302
+00:21:37,475 --> 00:21:43,786
+Earnings grow 14% a year at a
+multiple of 28: $805, or 15.6% a year.
+
+303
+00:21:44,095 --> 00:21:46,637
+The probabilities are
+my judgment, not data.
+
+304
+00:21:47,428 --> 00:21:51,673
+Weight each scenario's ending
+wealth by its probability,
+
+305
+00:21:51,673 --> 00:21:57,586
+and convert to an annual rate: 8.6% a
+year over five years, and 8.4% over ten.
+
+306
+00:21:57,895 --> 00:22:01,536
+Averaging the three returns
+instead would give about 8.0%.
+
+307
+00:22:01,536 --> 00:22:04,612
+Compounding is convex, so
+by Jensen's inequality,
+
+308
+00:22:04,612 --> 00:22:08,880
+the average of the rates understates
+the rate of the average wealth.
+
+309
+00:22:09,695 --> 00:22:12,882
+This grid shows the five-year
+return for any combination
+
+310
+00:22:12,882 --> 00:22:14,988
+of earnings growth and exit multiple.
+
+311
+00:22:15,295 --> 00:22:20,552
+A double-digit return needs 11%
+growth with a multiple of 26,
+
+312
+00:22:20,552 --> 00:22:24,171
+13% with 24, or 15% with 22. All possible,
+
+313
+00:22:24,171 --> 00:22:28,221
+but the median outcome
+looks more like 9 to 11%
+
+314
+00:22:28,221 --> 00:22:32,272
+growth and a multiple
+drifting toward 22 to 24.
+
+315
+00:22:33,061 --> 00:22:38,314
+For the index fund, the market-implied
+expected return is the risk-free
+
+316
+00:22:38,314 --> 00:22:41,717
+rate plus the equity
+risk premium, about 9.3%.
+
+317
+00:22:41,717 --> 00:22:44,898
+A more conservative
+estimate, based on J.P.
+
+318
+00:22:44,898 --> 00:22:47,265
+Morgan's forecasts, is about 7%.
+
+319
+00:22:47,561 --> 00:22:51,264
+Visa's 8.4 to 8.6% sits inside that range,
+
+320
+00:22:51,264 --> 00:22:55,583
+consistent with its CAPM
+cost of capital of 8.2%.
+
+321
+00:22:55,583 --> 00:22:59,814
+That suggests the market
+is pricing Visa fairly.
+
+322
+00:23:00,628 --> 00:23:04,809
+The lower the price you pay, the higher
+the expected return, along this curve.
+
+323
+00:23:05,128 --> 00:23:11,705
+A 10% expected return over ten
+years, 1 to 3 points above the index,
+
+324
+00:23:11,705 --> 00:23:17,122
+needs a price of about $346,
+23 times forecast earnings.
+
+325
+00:23:17,122 --> 00:23:21,668
+Visa was at $341 as
+recently as September 2025.
+
+326
+00:23:23,161 --> 00:23:25,086
+Chapter eleven. What could go wrong.
+
+327
+00:23:26,495 --> 00:23:28,633
+Now the bear case, taken seriously.
+
+328
+00:23:28,633 --> 00:23:31,933
+Visa's moat is under slow
+attack from four directions.
+
+329
+00:23:32,228 --> 00:23:34,866
+First, and most important,
+the United States.
+
+330
+00:23:34,866 --> 00:23:38,442
+Rules that let merchants choose
+how card payments are routed,
+
+331
+00:23:38,442 --> 00:23:40,670
+or steer customers to cheaper options,
+
+332
+00:23:40,670 --> 00:23:43,602
+would shift the choice of
+network to the merchant.
+
+333
+00:23:43,895 --> 00:23:46,911
+And large banks can take volume in-house.
+
+334
+00:23:46,911 --> 00:23:50,516
+Capital One, which now
+owns the Discover network,
+
+335
+00:23:50,516 --> 00:23:54,636
+moved about 25 million debit
+cards onto it in July 2026.
+
+336
+00:23:54,928 --> 00:23:58,258
+Second, government-backed
+instant payments.
+
+337
+00:23:58,258 --> 00:24:04,762
+In Brazil, Pix took about 42% of online
+purchases in 2025, edging past credit cards.
+
+338
+00:24:04,762 --> 00:24:10,027
+India's UPI handled 24 billion
+transactions in September 2026 alone,
+
+339
+00:24:10,027 --> 00:24:13,047
+and Europe is building its own systems.
+
+340
+00:24:13,361 --> 00:24:17,997
+Third, stablecoins in cross-border
+payments, Visa's richest line. Fourth,
+
+341
+00:24:17,997 --> 00:24:22,951
+wallets and AI agents that pick the
+cheapest payment method in the background.
+
+342
+00:24:23,761 --> 00:24:25,639
+Regulators are pressing too.
+
+343
+00:24:25,639 --> 00:24:29,864
+A settlement of the big US merchant
+lawsuit would let merchants
+
+344
+00:24:29,864 --> 00:24:32,948
+add surcharges and decline
+some premium cards.
+
+345
+00:24:32,948 --> 00:24:35,362
+It got preliminary approval in June,
+
+346
+00:24:35,362 --> 00:24:38,983
+and the fairness hearing is
+reportedly on 16 November.
+
+347
+00:24:39,295 --> 00:24:41,344
+The Credit Card Competition Act,
+
+348
+00:24:41,344 --> 00:24:44,739
+which would force a second
+network onto credit cards,
+
+349
+00:24:44,739 --> 00:24:46,788
+has the President's endorsement.
+
+350
+00:24:46,788 --> 00:24:52,104
+The Justice Department is suing Visa over
+debit, with a trial expected around 2028.
+
+351
+00:24:52,104 --> 00:24:54,794
+The UK and the EU are looking at fees too.
+
+352
+00:24:55,095 --> 00:24:56,976
+History offers some comfort.
+
+353
+00:24:56,976 --> 00:25:02,483
+When US debit fees were capped in 2011,
+Visa's shares rose more than 15% in a day,
+
+354
+00:25:02,483 --> 00:25:05,573
+because the final rule
+was looser than feared.
+
+355
+00:25:05,573 --> 00:25:10,409
+Regulation has repeatedly hurt the
+multiple more than long-run earnings.
+
+356
+00:25:11,228 --> 00:25:14,919
+The economy adds near-term
+risk: weak job growth,
+
+357
+00:25:14,919 --> 00:25:19,138
+inflation at 3.7%, and a Fed
+that has just raised rates.
+
+358
+00:25:19,138 --> 00:25:22,604
+Revenue would probably
+hold up in a recession,
+
+359
+00:25:22,604 --> 00:25:27,952
+but the stock would still fall 30%
+or more, as it did in 2008 and 2020.
+
+360
+00:25:28,761 --> 00:25:33,041
+The report's red-team section
+tested ten arguments against buying.
+
+361
+00:25:33,041 --> 00:25:37,515
+Four survive scrutiny: a growth
+multiple in a 5% interest-rate world,
+
+362
+00:25:37,515 --> 00:25:40,108
+big banks learning to route around Visa,
+
+363
+00:25:40,108 --> 00:25:43,934
+state payment systems capturing
+the emerging-market growth,
+
+364
+00:25:43,934 --> 00:25:46,333
+and base rates that favour the index.
+
+365
+00:25:46,628 --> 00:25:49,243
+None of them says Visa is a bad business.
+
+366
+00:25:49,243 --> 00:25:51,219
+Together they say that at $402,
+
+367
+00:25:51,219 --> 00:25:54,471
+you're paying full price
+for a great business whose
+
+368
+00:25:54,471 --> 00:25:57,596
+growth is more likely to
+slow down than speed up.
+
+369
+00:25:59,095 --> 00:26:01,922
+Chapter twelve.
+Diversification and base rates.
+
+370
+00:26:03,328 --> 00:26:06,693
+Why does it matter that Visa
+offers about the index's return?
+
+371
+00:26:06,693 --> 00:26:09,781
+Because of what happens to
+risk when you combine stocks.
+
+372
+00:26:10,095 --> 00:26:14,560
+Split each stock's risk into market
+risk, which moves all stocks together,
+
+373
+00:26:14,560 --> 00:26:17,818
+and company-specific risk,
+which is independent noise.
+
+374
+00:26:18,128 --> 00:26:21,344
+In a portfolio of N stocks,
+the market part stays,
+
+375
+00:26:21,344 --> 00:26:25,075
+but the variance of the specific
+part falls as one over N,
+
+376
+00:26:25,075 --> 00:26:28,484
+just like averaging N
+independent noisy measurements.
+
+377
+00:26:28,795 --> 00:26:31,307
+A global index holds thousands of stocks,
+
+378
+00:26:31,307 --> 00:26:34,310
+so its company-specific
+risk is practically gone.
+
+379
+00:26:34,310 --> 00:26:36,210
+A single stock keeps all of it.
+
+380
+00:26:37,028 --> 00:26:40,494
+And in CAPM, the market pays
+you only for market risk.
+
+381
+00:26:40,494 --> 00:26:44,023
+Company-specific risk can be
+diversified away for free,
+
+382
+00:26:44,023 --> 00:26:46,013
+so nobody pays you to carry it.
+
+383
+00:26:46,013 --> 00:26:51,018
+A single stock is only worth holding if
+its expected return is clearly higher,
+
+384
+00:26:51,018 --> 00:26:52,109
+and Visa's isn't.
+
+385
+00:26:52,928 --> 00:26:58,060
+The base rates are sobering. Studying
+all US stocks from 1926 to 2016,
+
+386
+00:26:58,060 --> 00:27:02,239
+Hendrik Bessembinder found
+that just 4.3% of them created
+
+387
+00:27:02,239 --> 00:27:05,759
+all of the market's wealth
+above Treasury bills.
+
+388
+00:27:06,561 --> 00:27:11,414
+Single-stock returns are extremely skewed:
+a few huge winners pull up the average,
+
+389
+00:27:11,414 --> 00:27:14,314
+so the typical stock does
+worse than the average.
+
+390
+00:27:14,628 --> 00:27:19,326
+Professionals struggle too.
+Over the 20 years to 2025,
+
+391
+00:27:19,326 --> 00:27:25,328
+about 93% of actively managed US
+large-cap funds trailed the S&P 500.
+
+392
+00:27:26,128 --> 00:27:28,925
+Visa has been one of the rare winners,
+
+393
+00:27:28,925 --> 00:27:33,267
+returning about 18% a year in
+dollars since September 2015,
+
+394
+00:27:33,267 --> 00:27:36,874
+against about 13% for the
+S&P 500 on price alone.
+
+395
+00:27:36,874 --> 00:27:40,554
+But past winners staying
+winners is the exception.
+
+396
+00:27:40,861 --> 00:27:48,348
+And you already own Visa through the index
+fund, at about 0.57% of the global index.
+
+397
+00:27:48,348 --> 00:27:53,072
+40,000 kroner in Visa, in
+a 500,000 kroner portfolio,
+
+398
+00:27:53,072 --> 00:27:57,975
+would raise your Visa exposure
+from about 0.6% to 8.5%.
+
+399
+00:27:59,461 --> 00:28:04,040
+Chapter thirteen. The Norwegian angle:
+currency, tax and position size.
+
+400
+00:28:05,428 --> 00:28:08,561
+You invest in kroner,
+so the currency matters.
+
+401
+00:28:08,561 --> 00:28:13,874
+If Visa returns r in dollars, and the
+dollar rises by delta against the krone,
+
+402
+00:28:13,874 --> 00:28:18,574
+your return in kroner is one plus
+r, times one plus delta, minus one.
+
+403
+00:28:18,574 --> 00:28:20,550
+In log terms they simply add.
+
+404
+00:28:21,361 --> 00:28:28,059
+On 9 October a dollar cost 9.57 kroner,
+above the ten-year average of 9.39,
+
+405
+00:28:28,059 --> 00:28:32,256
+and well above the
+twenty-year average of 7.86.
+
+406
+00:28:32,561 --> 00:28:38,110
+Usefully, the krone tends to weaken
+when stock markets fall. Since 2000,
+
+407
+00:28:38,110 --> 00:28:41,731
+the monthly correlation
+between the S&P 500 and
+
+408
+00:28:41,731 --> 00:28:44,968
+the dollar-krone rate has been minus 0.35.
+
+409
+00:28:45,761 --> 00:28:52,500
+In the three big sell-offs, the dollar
+rose 39, 22 and 23% against the krone.
+
+410
+00:28:52,500 --> 00:28:58,188
+So Visa's 52% fall in 2008 and
+2009 was only about 33% in kroner.
+
+411
+00:28:58,188 --> 00:29:02,301
+Dollar exposure works
+like a damper on crashes.
+
+412
+00:29:02,595 --> 00:29:04,752
+The long-run risk runs the other way:
+
+413
+00:29:04,752 --> 00:29:07,783
+a return to the twenty-year
+average would cost about
+
+414
+00:29:07,783 --> 00:29:10,348
+two percentage points
+a year over ten years.
+
+415
+00:29:11,161 --> 00:29:16,102
+The five-year expected
+return of 8.6% becomes 6.1%
+
+416
+00:29:16,102 --> 00:29:20,450
+if the krone strengthens
+to 8.50 per dollar,
+
+417
+00:29:20,450 --> 00:29:23,710
+and 10.7% if it weakens to 10.50.
+
+418
+00:29:24,028 --> 00:29:27,878
+But your global index fund
+is about 64% US stocks too,
+
+419
+00:29:27,878 --> 00:29:31,870
+so currency isn't a reason
+to prefer one over the other.
+
+420
+00:29:32,661 --> 00:29:36,103
+Now tax. The Norwegian share
+savings account, the ASK,
+
+421
+00:29:36,103 --> 00:29:40,818
+lets you buy and sell without paying
+tax on gains until you withdraw them.
+
+422
+00:29:41,128 --> 00:29:46,497
+But it only accepts shares in companies
+resident in the European Economic Area,
+
+423
+00:29:46,497 --> 00:29:50,847
+plus equity funds. Visa is not
+eligible. A global index fund is.
+
+424
+00:29:51,661 --> 00:29:55,036
+Share income, both gains and dividends,
+
+425
+00:29:55,036 --> 00:30:00,919
+is multiplied by 1.72 and taxed at
+22%: an effective rate of 37.84%.
+
+426
+00:30:00,919 --> 00:30:07,755
+Gains are calculated in kroner, so currency
+moves are part of the taxable gain.
+
+427
+00:30:08,061 --> 00:30:13,992
+The US withholds 15% of dividends if
+you file a W-8BEN form with your broker,
+
+428
+00:30:13,992 --> 00:30:19,076
+otherwise 30%, and Norway credits
+that against your Norwegian tax.
+
+429
+00:30:19,395 --> 00:30:24,505
+A shielding deduction exempts a small
+yearly return on your purchase price.
+
+430
+00:30:24,505 --> 00:30:28,662
+Visa's dividend is so small that
+the deduction can absorb it,
+
+431
+00:30:28,662 --> 00:30:33,636
+leaving the US tax uncredited: about
+600 kroner over ten years on 40,000.
+
+432
+00:30:33,636 --> 00:30:35,408
+Small, but worth checking.
+
+433
+00:30:36,195 --> 00:30:42,729
+Put together: 40,000 kroner held for
+ten years at a flat exchange rate
+
+434
+00:30:42,729 --> 00:30:47,116
+grows to about 73,800
+kroner after tax in Visa,
+
+435
+00:30:47,116 --> 00:30:51,877
+and to 67,700 to 79,000 in
+an index fund in an ASK.
+
+436
+00:30:52,195 --> 00:30:57,146
+Tax barely separates them. The real
+advantage of the ASK is flexibility:
+
+437
+00:30:57,146 --> 00:31:00,653
+you can switch or rebalance
+without triggering tax.
+
+438
+00:31:01,461 --> 00:31:02,458
+Finally, size.
+
+439
+00:31:02,458 --> 00:31:07,936
+A common rule of thumb is at most 5% of
+your investments in any single stock.
+
+440
+00:31:07,936 --> 00:31:11,494
+30 to 50 thousand kroner
+fits if your portfolio is
+
+441
+00:31:11,494 --> 00:31:14,838
+about 600 thousand to a
+million kroner or more.
+
+442
+00:31:16,328 --> 00:31:19,228
+Chapter fourteen. The
+conclusion, and what to watch.
+
+443
+00:31:20,628 --> 00:31:22,031
+Back to the three questions.
+
+444
+00:31:22,328 --> 00:31:24,211
+Is Visa a great business?
+
+445
+00:31:24,211 --> 00:31:30,009
+Yes, with high confidence: a toll on
+global spending, with margins above 60%,
+
+446
+00:31:30,009 --> 00:31:34,527
+almost no capital needs, and
+revenue that grew even in 2009.
+
+447
+00:31:34,828 --> 00:31:39,312
+Is the price attractive? No. It
+assumes Visa repeats its record,
+
+448
+00:31:39,312 --> 00:31:44,568
+and its expected return of about 8.5%
+a year is no better than the index's.
+
+449
+00:31:44,861 --> 00:31:48,297
+So is it better than the index
+fund for you? Not at this price.
+
+450
+00:31:48,297 --> 00:31:51,460
+You'd take on concentrated
+risk without being paid for it.
+
+451
+00:31:52,261 --> 00:31:55,927
+The recommendation is hold, or
+wait, with medium confidence.
+
+452
+00:31:55,927 --> 00:31:58,432
+Keep the money in the index fund for now.
+
+453
+00:31:58,728 --> 00:32:05,711
+Become a buyer at or below about $345,
+roughly 23 times next year's earnings.
+
+454
+00:32:05,711 --> 00:32:12,513
+Between $345 and $380, a starter position
+of at most a third is reasonable,
+
+455
+00:32:12,513 --> 00:32:14,690
+ideally bought in steps.
+
+456
+00:32:15,495 --> 00:32:19,038
+Revisit after the full-year
+results on 27 October,
+
+457
+00:32:19,038 --> 00:32:21,660
+and the court hearing on 16 November.
+
+458
+00:32:21,961 --> 00:32:25,154
+Confidence is medium
+because the answer hinges
+
+459
+00:32:25,154 --> 00:32:27,862
+on a discount rate nobody can pin down.
+
+460
+00:32:27,862 --> 00:32:30,013
+At 8%, the model would say buy.
+
+461
+00:32:30,828 --> 00:32:33,897
+Five signals would tell you the
+investment case is breaking.
+
+462
+00:32:34,195 --> 00:32:38,775
+One: client incentives above 30% of
+gross revenue while growth slows.
+
+463
+00:32:39,095 --> 00:32:43,318
+Two: Visa's US volume growing clearly
+slower than consumer spending,
+
+464
+00:32:43,318 --> 00:32:47,045
+or more banks following Capital
+One onto their own networks.
+
+465
+00:32:47,361 --> 00:32:52,090
+Three: regulation, such as a Senate
+vote on the Credit Card Competition Act,
+
+466
+00:32:52,090 --> 00:32:56,694
+a court remedy in the debit case, or
+merchants actually adding surcharges.
+
+467
+00:32:56,995 --> 00:33:01,009
+Four: account-to-account payments
+winning in Visa's growth markets,
+
+468
+00:33:01,009 --> 00:33:04,245
+such as Pix passing half of
+Brazilian online shopping.
+
+469
+00:33:04,561 --> 00:33:09,495
+Five: revenue growth below 8% in
+constant currency, outside a recession.
+
+470
+00:33:10,295 --> 00:33:14,025
+Every number here comes from the
+report's data and Python scripts,
+
+471
+00:33:14,025 --> 00:33:16,624
+which you can rerun with
+your own assumptions.
+
+472
+00:33:16,624 --> 00:33:19,902
+Change the discount rate, the
+growth or the probabilities,
+
+473
+00:33:19,902 --> 00:33:21,767
+and see how the conclusion moves.
+
+474
+00:33:22,561 --> 00:33:27,266
+Thanks for watching. Remember, this is
+an analysis to support your decision,
+
+475
+00:33:27,266 --> 00:33:29,123
+not personal financial advice.
+
